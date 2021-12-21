@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(images/bg-pattern-top.svg); */
+    background-color: var(--dark-cyan);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    width: 350px;
+}
+
+
+/* HEADER */
+
+.main .img_background {
+    display: flex;
+}
+
+.main .img_background img {
+    border-radius: 1rem 1rem 0 0;
+}
+
+
+/* INFO */
+
+.main .info {
+    display: flex;
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1.5px solid hsl(0, 0%, 80%);
+}
+
+.main .info .victor img {
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -50px;
+    margin-bottom: 1rem;
+}
+
+.main .info .victor {
+    margin-bottom: 2rem;
+}
+
+.main .info .victor h2 {
+    line-height: 2.5rem;
+}
+
+.main .info .victor h2 span {
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+
+.main .info .victor p {
+    color: var(--dark-grayish-blue);
+    font-size: 16px;
+}
+
+
+/* REDES */
+
+.main .red {
+    background-color: white;
+    width: 350px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0 0 1rem 1rem;
+    color: var(--very-dark-desaturated-blue);
+}
+
+.main .red .redes {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 3rem;
+}
+
+.main .red .redes span {
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    font-size: 12px;
+}
